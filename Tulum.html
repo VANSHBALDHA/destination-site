@@ -1,61 +1,915 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/332a215f17.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <title>Tulum | Vibrant Travel</title>
-</head>
+  </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light main-navbar
-    bg m-navbar-light" id="main-navbar">
-        <div class="container">
-            <a class="navbar-brand" href="#">Vibrant Travel</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-nav"
-                aria-controls="p-nav" aria-expanded="false" aria-label="toggle-navigation">
-                <span>Menu</span>
-            </button>
-            <div class="collapse navbar-collapse" id="my-nav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">PVR</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Cancun</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a href="./Tulum.html" class="nav-link">Tulum</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Yucatan</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Oaxaca</a>
-                    </li>
-                </ul>
-            </div>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light main-navbar bg m-navbar-light"
+      id="main-navbar"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">Vibrant Travel</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#my-nav"
+          aria-controls="p-nav"
+          aria-expanded="false"
+          aria-label="toggle-navigation"
+        >
+          <span>Menu</span>
+        </button>
+        <div class="collapse navbar-collapse" id="my-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">PVR</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Cancun</a>
+            </li>
+            <li class="nav-item active">
+              <a href="./Tulum.html" class="nav-link">Tulum</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Yucatan</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Oaxaca</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-    <section class="tulum-section"
+    <!-- Breadcumb Section -->
+    <section data-anim="fade" class="breadcumb-sec">
+      <div class="container">
+        <div class="row breadcumb-content">
+          <div class="col-auto">
+            <div class="row breadcumb-content-row">
+              <div class="col-auto breadcumb-name">
+                <div class="">Europe</div>
+              </div>
+              <div class="col-auto breadcumb-name">
+                <div class="">&gt;</div>
+              </div>
+              <div class="col-auto breadcumb-name">
+                <div class="">United Kingdom (UK)</div>
+              </div>
+              <div class="col-auto breadcumb-name">
+                <div class="">&gt;</div>
+              </div>
+              <div class="col-auto breadcumb-name">
+                <div class="text-dark-1">London</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-auto">
+            <span class="breadcumb-city">London Tourism: Best of London</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Hero Banner Section  -->
+    <section class="banner-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="banner-img">
+              <!-- <img src="./assets/Images/Tulum/Banner.png" alt="image" class="col-12 rounded-2"> -->
+              <img
+                src="https://creativelayers.net/themes/gotrip-html/img/pages/destinations/1.png"
+                alt="image"
+                class="col-12 rounded-2"
+              />
+
+              <div class="banner-content">
+                <h1>Explore London</h1>
+                <div class="text-white">
+                  Explore deals, travel guides and things to do in London
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row city-features">
+          <div class="col city-features-box">
+            <button>
+              <i class="fa-solid fa-bed"></i>
+              <span>Hotel</span>
+            </button>
+          </div>
+
+          <div class="col city-features-box">
+            <button>
+              <i class="fa-solid fa-map-location-dot"></i>
+              <span>Tour</span>
+            </button>
+          </div>
+
+          <div class="col city-features-box">
+            <button>
+              <i class="fa-solid fa-person-skiing"></i>
+              <span>Activity</span>
+            </button>
+          </div>
+
+          <div class="col city-features-box">
+            <button>
+              <i class="fa-solid fa-house-chimney"></i>
+              <span>Holiday Rentals</span>
+            </button>
+          </div>
+
+          <div class="col city-features-box">
+            <button>
+              <i class="fa-solid fa-car-side"></i>
+              <span>Car</span>
+            </button>
+          </div>
+
+          <div class="col city-features-box">
+            <button>
+              <i class="fa-solid fa-ship"></i>
+              <span>Cruise</span>
+            </button>
+          </div>
+
+          <div class="col city-features-box">
+            <button>
+              <i class="fa-solid fa-ship"></i>
+              <span>Flights</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="row visiting-location">
+          <div class="col-auto">
+            <h2 class="">What to know before visiting London</h2>
+          </div>
+
+          <div class="col-lg-8 col-md-8 col-12">
+            <p>
+              London is a shining example of a metropolis at the highest peak of
+              modernity and boasts an economy and cultural diversity that’s the
+              envy of other global superpowers.
+              <br /><br />
+              Take the opportunity to acquaint yourself with its fascinating
+              history chronicled by institutions like the British Museum as well
+              as see how far it has come by simply riding the Tube and passing
+              by celebrated landmarks like Buckingham Palace, Westminster Abbey,
+              and marvels like Big Ben, the London Eye, and the Tower Bridge.
+              <br /><br />
+              You can also immerse yourself in its ever-evolving and impactful
+              culture by visiting places like the National Gallery, the Tate
+              Modern, West End, Abbey Road, the Royal Albert Hall, Oxford Street
+              and the Westfield Shopping Centers, and areas referenced and seen
+              in literature and film.
+            </p>
+          </div>
+
+          <div class="col-xl-4">
+            <div class="relative d-flex ml-35">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59919.59472404027!2d-87.50526137395451!3d20.17678012015522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4fd40310e42a4b%3A0xeedc0db93ff9ab7!2sTulum%2C%20Quintana%20Roo%2C%20Mexico!5e0!3m2!1sen!2sin!4v1731875181508!5m2!1sen!2sin"
+                width="600"
+                height="210"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-border"></div>
+
+        <div class="row weather-info">
+          <div class="col-12">
+            <h2>Local weather</h2>
+          </div>
+          <div class="col-md-3 col-xl-3 col-6">
+            <div class="weather-month">
+              <h6>DEC - FEB</h6>
+            </div>
+            <div class="weather-celc">7° <span>3°</span></div>
+          </div>
+
+          <div class="col-md-3 col-xl-3 col-6">
+            <div class="weather-month">
+              <h6>MAR - MAY</h6>
+            </div>
+            <div class="weather-celc">17° <span>3°</span></div>
+          </div>
+
+          <div class="col-md-3 col-xl-3 col-6">
+            <div class="weather-month">
+              <h6>JUN - AUG</h6>
+            </div>
+            <div class="weather-celc">27° <span>3°</span></div>
+          </div>
+
+          <div class="col-md-3 col-xl-3 col-6">
+            <div class="weather-month">
+              <h6>SEP - NOV</h6>
+            </div>
+            <div class="weather-celc">7° <span>3°</span></div>
+          </div>
+        </div>
+
+        <div class="content-border"></div>
+
+        <div class="row weather-info">
+          <div class="col-12">
+            <h2>General info</h2>
+          </div>
+
+          <div class="col-md-3 col-xl-3 col-6 general-info">
+            <h5>Time Zone</h5>
+            <h6>GMT +00:00</h6>
+            <span>3 hours behind</span>
+          </div>
+
+          <div class="col-md-3 col-xl-3 col-6 general-info">
+            <h5>Currency</h5>
+            <h6>British Pound</h6>
+            <span>1USD = 0.76GBP</span>
+          </div>
+
+          <div class="col-md-3 col-xl-3 col-6 general-info">
+            <h5>Best time to visit</h5>
+            <div class="row">
+              <div class="col-md-6">
+                <h6>JUN</h6>
+                <span>The Queen's Birthday</span>
+              </div>
+              <div class="col-md-6">
+                <h6>JUN</h6>
+                <span>The Queen's Birthday</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-border"></div>
+
+        <section class="layout-pt-md layout-pb-md">
+          <div class="container">
+            <div class="row y-gap-20 justify-between items-end">
+              <div class="col-auto">
+                <div class="sectionTitle -md">
+                  <h2 class="sectionTitle__title">Recommended Hotels</h2>
+                  <p class="sectionTitle__text mt-5 sm:mt-0">
+                    Interdum et malesuada fames ac ante ipsum
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-auto">
+                <a href="#" class="button -md -blue-1 bg-blue-1-05 text-blue-1">
+                  More
+                  <div class="icon-arrow-top-right ml-15"></div>
+                </a>
+              </div>
+            </div>
+
+            <div class="row y-gap-30 pt-40 sm:pt-20">
+              <div class="col-xl-3 col-lg-3 col-sm-6">
+                <a href="hotel-single-1.html" class="hotelsCard -type-1">
+                  <div class="hotelsCard__image">
+                    <div class="cardImage ratio ratio-1:1">
+                      <div class="cardImage__content">
+                        <img
+                          class="rounded-4 col-12"
+                          src="img/hotels/1.png"
+                          alt="image"
+                        />
+                      </div>
+
+                      <div class="cardImage__wishlist">
+                        <button
+                          class="button -blue-1 bg-white size-30 rounded-full shadow-2"
+                        >
+                          <i class="icon-heart text-12"></i>
+                        </button>
+                      </div>
+
+                      <div class="cardImage__leftBadge">
+                        <div
+                          class="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-dark-1 text-white"
+                        >
+                          Breakfast included
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="hotelsCard__content mt-10">
+                    <h4
+                      class="hotelsCard__title text-dark-1 text-18 lh-16 fw-500"
+                    >
+                      <span>The Montcalm At Brewery London City</span>
+                    </h4>
+
+                    <p class="text-light-1 lh-14 text-14 mt-5">
+                      Westminster Borough, London
+                    </p>
+
+                    <div class="d-flex items-center mt-20">
+                      <div
+                        class="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white"
+                      >
+                        4.8
+                      </div>
+                      <div class="text-14 text-dark-1 fw-500 ml-10">
+                        Exceptional
+                      </div>
+                      <div class="text-14 text-light-1 ml-10">
+                        3,014 reviews
+                      </div>
+                    </div>
+
+                    <div class="mt-5">
+                      <div class="fw-500">
+                        Starting from <span class="text-blue-1">US$72</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-xl-3 col-lg-3 col-sm-6">
+                <a href="hotel-single-1.html" class="hotelsCard -type-1">
+                  <div class="hotelsCard__image">
+                    <div class="cardImage ratio ratio-1:1">
+                      <div class="cardImage__content">
+                        <div
+                          class="cardImage-slider rounded-4 overflow-hidden js-cardImage-slider"
+                        >
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <img
+                                class="col-12"
+                                src="img/hotels/2.png"
+                                alt="image"
+                              />
+                            </div>
+
+                            <div class="swiper-slide">
+                              <img
+                                class="col-12"
+                                src="img/hotels/1.png"
+                                alt="image"
+                              />
+                            </div>
+
+                            <div class="swiper-slide">
+                              <img
+                                class="col-12"
+                                src="img/hotels/3.png"
+                                alt="image"
+                              />
+                            </div>
+                          </div>
+
+                          <div
+                            class="cardImage-slider__pagination js-pagination"
+                          ></div>
+
+                          <div class="cardImage-slider__nav -prev">
+                            <button
+                              class="button -blue-1 bg-white size-30 rounded-full shadow-2 js-prev"
+                            >
+                              <i class="icon-chevron-left text-10"></i>
+                            </button>
+                          </div>
+
+                          <div class="cardImage-slider__nav -next">
+                            <button
+                              class="button -blue-1 bg-white size-30 rounded-full shadow-2 js-next"
+                            >
+                              <i class="icon-chevron-right text-10"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="cardImage__wishlist">
+                        <button
+                          class="button -blue-1 bg-white size-30 rounded-full shadow-2"
+                        >
+                          <i class="icon-heart text-12"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="hotelsCard__content mt-10">
+                    <h4
+                      class="hotelsCard__title text-dark-1 text-18 lh-16 fw-500"
+                    >
+                      <span>Staycity Aparthotels Deptford Bridge Station</span>
+                    </h4>
+
+                    <p class="text-light-1 lh-14 text-14 mt-5">
+                      Ciutat Vella, Barcelona
+                    </p>
+
+                    <div class="d-flex items-center mt-20">
+                      <div
+                        class="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white"
+                      >
+                        4.8
+                      </div>
+                      <div class="text-14 text-dark-1 fw-500 ml-10">
+                        Exceptional
+                      </div>
+                      <div class="text-14 text-light-1 ml-10">
+                        3,014 reviews
+                      </div>
+                    </div>
+
+                    <div class="mt-5">
+                      <div class="fw-500">
+                        Starting from <span class="text-blue-1">US$72</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-xl-3 col-lg-3 col-sm-6">
+                <a href="hotel-single-1.html" class="hotelsCard -type-1">
+                  <div class="hotelsCard__image">
+                    <div class="cardImage ratio ratio-1:1">
+                      <div class="cardImage__content">
+                        <img
+                          class="rounded-4 col-12"
+                          src="img/hotels/3.png"
+                          alt="image"
+                        />
+                      </div>
+
+                      <div class="cardImage__wishlist">
+                        <button
+                          class="button -blue-1 bg-white size-30 rounded-full shadow-2"
+                        >
+                          <i class="icon-heart text-12"></i>
+                        </button>
+                      </div>
+
+                      <div class="cardImage__leftBadge">
+                        <div
+                          class="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-blue-1 text-white"
+                        >
+                          Best Seller
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="hotelsCard__content mt-10">
+                    <h4
+                      class="hotelsCard__title text-dark-1 text-18 lh-16 fw-500"
+                    >
+                      <span>The Westin New York at Times Square</span>
+                    </h4>
+
+                    <p class="text-light-1 lh-14 text-14 mt-5">
+                      Manhattan, New York
+                    </p>
+
+                    <div class="d-flex items-center mt-20">
+                      <div
+                        class="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white"
+                      >
+                        4.8
+                      </div>
+                      <div class="text-14 text-dark-1 fw-500 ml-10">
+                        Exceptional
+                      </div>
+                      <div class="text-14 text-light-1 ml-10">
+                        3,014 reviews
+                      </div>
+                    </div>
+
+                    <div class="mt-5">
+                      <div class="fw-500">
+                        Starting from <span class="text-blue-1">US$72</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-xl-3 col-lg-3 col-sm-6">
+                <a href="hotel-single-1.html" class="hotelsCard -type-1">
+                  <div class="hotelsCard__image">
+                    <div class="cardImage ratio ratio-1:1">
+                      <div class="cardImage__content">
+                        <img
+                          class="rounded-4 col-12"
+                          src="img/hotels/4.png"
+                          alt="image"
+                        />
+                      </div>
+
+                      <div class="cardImage__wishlist">
+                        <button
+                          class="button -blue-1 bg-white size-30 rounded-full shadow-2"
+                        >
+                          <i class="icon-heart text-12"></i>
+                        </button>
+                      </div>
+
+                      <div class="cardImage__leftBadge">
+                        <div
+                          class="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-yellow-1 text-dark-1"
+                        >
+                          Top Rated
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="hotelsCard__content mt-10">
+                    <h4
+                      class="hotelsCard__title text-dark-1 text-18 lh-16 fw-500"
+                    >
+                      <span
+                        >DoubleTree by Hilton Hotel New York Times Square
+                        West</span
+                      >
+                    </h4>
+
+                    <p class="text-light-1 lh-14 text-14 mt-5">
+                      Vaticano Prati, Rome
+                    </p>
+
+                    <div class="d-flex items-center mt-20">
+                      <div
+                        class="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white"
+                      >
+                        4.8
+                      </div>
+                      <div class="text-14 text-dark-1 fw-500 ml-10">
+                        Exceptional
+                      </div>
+                      <div class="text-14 text-light-1 ml-10">
+                        3,014 reviews
+                      </div>
+                    </div>
+
+                    <div class="mt-5">
+                      <div class="fw-500">
+                        Starting from <span class="text-blue-1">US$72</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-xl-3 col-lg-3 col-sm-6">
+                <a href="hotel-single-1.html" class="hotelsCard -type-1">
+                  <div class="hotelsCard__image">
+                    <div class="cardImage ratio ratio-1:1">
+                      <div class="cardImage__content">
+                        <img
+                          class="rounded-4 col-12"
+                          src="img/hotels/1.png"
+                          alt="image"
+                        />
+                      </div>
+
+                      <div class="cardImage__wishlist">
+                        <button
+                          class="button -blue-1 bg-white size-30 rounded-full shadow-2"
+                        >
+                          <i class="icon-heart text-12"></i>
+                        </button>
+                      </div>
+
+                      <div class="cardImage__leftBadge">
+                        <div
+                          class="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-dark-1 text-white"
+                        >
+                          Breakfast included
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="hotelsCard__content mt-10">
+                    <h4
+                      class="hotelsCard__title text-dark-1 text-18 lh-16 fw-500"
+                    >
+                      <span>The Montcalm At Brewery London City</span>
+                    </h4>
+
+                    <p class="text-light-1 lh-14 text-14 mt-5">
+                      Westminster Borough, London
+                    </p>
+
+                    <div class="d-flex items-center mt-20">
+                      <div
+                        class="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white"
+                      >
+                        4.8
+                      </div>
+                      <div class="text-14 text-dark-1 fw-500 ml-10">
+                        Exceptional
+                      </div>
+                      <div class="text-14 text-light-1 ml-10">
+                        3,014 reviews
+                      </div>
+                    </div>
+
+                    <div class="mt-5">
+                      <div class="fw-500">
+                        Starting from <span class="text-blue-1">US$72</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-xl-3 col-lg-3 col-sm-6">
+                <a href="hotel-single-1.html" class="hotelsCard -type-1">
+                  <div class="hotelsCard__image">
+                    <div class="cardImage ratio ratio-1:1">
+                      <div class="cardImage__content">
+                        <div
+                          class="cardImage-slider rounded-4 overflow-hidden js-cardImage-slider"
+                        >
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <img
+                                class="col-12"
+                                src="img/hotels/2.png"
+                                alt="image"
+                              />
+                            </div>
+
+                            <div class="swiper-slide">
+                              <img
+                                class="col-12"
+                                src="img/hotels/1.png"
+                                alt="image"
+                              />
+                            </div>
+
+                            <div class="swiper-slide">
+                              <img
+                                class="col-12"
+                                src="img/hotels/3.png"
+                                alt="image"
+                              />
+                            </div>
+                          </div>
+
+                          <div
+                            class="cardImage-slider__pagination js-pagination"
+                          ></div>
+
+                          <div class="cardImage-slider__nav -prev">
+                            <button
+                              class="button -blue-1 bg-white size-30 rounded-full shadow-2 js-prev"
+                            >
+                              <i class="icon-chevron-left text-10"></i>
+                            </button>
+                          </div>
+
+                          <div class="cardImage-slider__nav -next">
+                            <button
+                              class="button -blue-1 bg-white size-30 rounded-full shadow-2 js-next"
+                            >
+                              <i class="icon-chevron-right text-10"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="cardImage__wishlist">
+                        <button
+                          class="button -blue-1 bg-white size-30 rounded-full shadow-2"
+                        >
+                          <i class="icon-heart text-12"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="hotelsCard__content mt-10">
+                    <h4
+                      class="hotelsCard__title text-dark-1 text-18 lh-16 fw-500"
+                    >
+                      <span>Staycity Aparthotels Deptford Bridge Station</span>
+                    </h4>
+
+                    <p class="text-light-1 lh-14 text-14 mt-5">
+                      Ciutat Vella, Barcelona
+                    </p>
+
+                    <div class="d-flex items-center mt-20">
+                      <div
+                        class="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white"
+                      >
+                        4.8
+                      </div>
+                      <div class="text-14 text-dark-1 fw-500 ml-10">
+                        Exceptional
+                      </div>
+                      <div class="text-14 text-light-1 ml-10">
+                        3,014 reviews
+                      </div>
+                    </div>
+
+                    <div class="mt-5">
+                      <div class="fw-500">
+                        Starting from <span class="text-blue-1">US$72</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-xl-3 col-lg-3 col-sm-6">
+                <a href="hotel-single-1.html" class="hotelsCard -type-1">
+                  <div class="hotelsCard__image">
+                    <div class="cardImage ratio ratio-1:1">
+                      <div class="cardImage__content">
+                        <img
+                          class="rounded-4 col-12"
+                          src="img/hotels/3.png"
+                          alt="image"
+                        />
+                      </div>
+
+                      <div class="cardImage__wishlist">
+                        <button
+                          class="button -blue-1 bg-white size-30 rounded-full shadow-2"
+                        >
+                          <i class="icon-heart text-12"></i>
+                        </button>
+                      </div>
+
+                      <div class="cardImage__leftBadge">
+                        <div
+                          class="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-blue-1 text-white"
+                        >
+                          Best Seller
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="hotelsCard__content mt-10">
+                    <h4
+                      class="hotelsCard__title text-dark-1 text-18 lh-16 fw-500"
+                    >
+                      <span>The Westin New York at Times Square</span>
+                    </h4>
+
+                    <p class="text-light-1 lh-14 text-14 mt-5">
+                      Manhattan, New York
+                    </p>
+
+                    <div class="d-flex items-center mt-20">
+                      <div
+                        class="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white"
+                      >
+                        4.8
+                      </div>
+                      <div class="text-14 text-dark-1 fw-500 ml-10">
+                        Exceptional
+                      </div>
+                      <div class="text-14 text-light-1 ml-10">
+                        3,014 reviews
+                      </div>
+                    </div>
+
+                    <div class="mt-5">
+                      <div class="fw-500">
+                        Starting from <span class="text-blue-1">US$72</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-xl-3 col-lg-3 col-sm-6">
+                <a href="hotel-single-1.html" class="hotelsCard -type-1">
+                  <div class="hotelsCard__image">
+                    <div class="cardImage ratio ratio-1:1">
+                      <div class="cardImage__content">
+                        <img
+                          class="rounded-4 col-12"
+                          src="img/hotels/4.png"
+                          alt="image"
+                        />
+                      </div>
+
+                      <div class="cardImage__wishlist">
+                        <button
+                          class="button -blue-1 bg-white size-30 rounded-full shadow-2"
+                        >
+                          <i class="icon-heart text-12"></i>
+                        </button>
+                      </div>
+
+                      <div class="cardImage__leftBadge">
+                        <div
+                          class="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-yellow-1 text-dark-1"
+                        >
+                          Top Rated
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="hotelsCard__content mt-10">
+                    <h4
+                      class="hotelsCard__title text-dark-1 text-18 lh-16 fw-500"
+                    >
+                      <span
+                        >DoubleTree by Hilton Hotel New York Times Square
+                        West</span
+                      >
+                    </h4>
+
+                    <p class="text-light-1 lh-14 text-14 mt-5">
+                      Vaticano Prati, Rome
+                    </p>
+
+                    <div class="d-flex items-center mt-20">
+                      <div
+                        class="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white"
+                      >
+                        4.8
+                      </div>
+                      <div class="text-14 text-dark-1 fw-500 ml-10">
+                        Exceptional
+                      </div>
+                      <div class="text-14 text-light-1 ml-10">
+                        3,014 reviews
+                      </div>
+                    </div>
+
+                    <div class="mt-5">
+                      <div class="fw-500">
+                        Starting from <span class="text-blue-1">US$72</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- <section class="tulum-section"
         style="background-image: url(https://azim.commonsupport.com/Travio/assets/images/background/page-title-2.jpg);">
         <div class="auto-container">
             <div class="content-box">
@@ -149,40 +1003,6 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="country-details-sec">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="country-details">
-                        <div class="text">
-                            <h3>Country Details</h3>
-                            <p>Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                                commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                                eu
-                                fugiat nulla pariatur.</p>
-                        </div>
-                        <ul class="details-list clearfix">
-                            <li><i class="fas fa-map-marker-alt"></i><span>Address:</span>New York City</li>
-                            <li><i class="far fa-id-card"></i><span>Visa Requirements:</span>Yes Requard</li>
-                            <li><i class="fas fa-globe"></i><span>Country:</span>New York City</li>
-                            <li><i class="far fa-comments"></i><span>Languages spoken:</span>English &amp; Spanish</li>
-                            <li><i class="fas fa-dollar-sign"></i><span>Currency Used:</span>USD</li>
-                            <li><i class="fas fa-phone"></i><span>Suport Phone:</span><a
-                                    href="tel:310215402">+310215402</a>
-                            </li>
-                            <li><i class="far fa-envelope-open"></i><span>Emergency Email:</span><a
-                                    href="mailto:info@example.com">info@example.com</a></li>
-                            <li><i class="far fa-map"></i><span>Distance:</span>10.7m</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-</body>
-
+    </section> -->
+  </body>
 </html>
