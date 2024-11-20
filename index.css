@@ -216,8 +216,12 @@ a.navbar-brand {
     gap: 5px;
   }
 
-  .feature-section{
+  .feature-section {
     padding: 40px 0 !important;
+  }
+
+  .top-sights-section {
+    padding: 0 !important;
   }
 }
 
@@ -861,7 +865,7 @@ ul {
     font-size: 25px;
   }
 
-  .places-image{
+  .places-image {
     margin-bottom: 10px;
   }
 
@@ -1172,7 +1176,7 @@ ul {
 }
 
 .top-sights-section {
-  padding: 50px 15px;
+  padding: 20px 15px;
 }
 
 .top-sights-section .top-sight-header h2 {
@@ -1183,144 +1187,101 @@ ul {
 .top-sights-section .top-sight-header p {
   margin-top: 5px;
   color: #697488;
-  text-align: center;
+  /* text-align: center; */
 }
 
-.top-sights-section .top-sights-list {
-  padding-top: 20px;
+.top-sight-box {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: stretch;
+  gap: 16px;
+  height: 300px; /* Fixed height */
+  overflow: hidden; /* Hide overflow content */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.top-sights-section .top-sights-list .col-boxes {
-  margin-bottom: 15px;
+.top-sight-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-.top-sights-section .top-sights-list .top-sight-box {
-  border-radius: 4px;
-  border: 1px solid #dddddd;
+.image-container {
+  flex-shrink: 0;
+  width: 230px;
+  height: 100%;
   overflow: hidden;
+  border-radius: 8px;
 }
 
-.top-sights-section .top-sights-list .top-sight-box .col-auto .ratio {
-  width: 150px;
-  max-width: 100%;
-  position: relative;
-  display: block;
-  overflow: hidden;
-}
-
-.top-sights-section .top-sights-list .top-sight-box .col-auto .ratio::before {
-  display: block;
-  width: 100%;
-  content: "";
-}
-
-.top-sights-section
-  .top-sights-list
-  .top-sight-box
-  .col-auto
-  .ratio-1\:1::before {
-  padding-bottom: 100%;
-}
-
-.top-sights-section
-  .top-sights-list
-  .top-sight-box
-  .col-auto
-  .ratio
-  .img-ratio {
-  position: absolute;
-  top: 0;
-  left: 0;
+.image-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.top-sights-section .top-sights-list .top-sight-box .col-content-box-main {
-  padding-top: 15px;
-  padding-bottom: 15px;
+.content-box {
+  flex: 1;
+  overflow: auto; /* Enable scrolling for long content */
 }
 
-.top-sights-section .top-sights-list .top-sight-box .content-box-main {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 15px;
-  flex-direction: column;
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
-.top-sights-section .top-sights-list .top-sight-box .content-box-main h3 {
-  font-weight: 700;
-  font-size: 16px;
-}
-
-.top-sights-section .top-sights-list .top-sight-box .content-box-main p {
-  margin-top: 5px;
-  font-size: 14px;
+.description {
+  font-size: 0.95rem;
+  color: #555;
   line-height: 1.5;
-  color: #697488;
 }
 
-/* For Mobile (max-width: 767px) */
 @media (max-width: 767px) {
-  .top-sights-section {
-    padding: 40px 10px;
+  .top-sight-box {
+    flex-direction: column;
+    /* text-align: center; */
+    height: auto;
   }
 
-  .top-sights-section .top-sight-header h2 {
-    font-size: 24px;
+  .image-container {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 16px;
   }
 
-  .top-sights-section .top-sight-header p {
-    font-size: 14px;
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
-  .top-sights-section .top-sights-list .top-sight-box .col-auto .ratio {
-    width: 120px;
+  .content-box {
+    overflow: auto; /* Ensure content is scrollable if necessary */
   }
 
-  .top-sights-section .top-sights-list .top-sight-box .content-box-main {
-    padding: 10px;
+  .title {
+    font-size: 1.1rem;
   }
 
-  .top-sights-section .top-sights-list .top-sight-box .content-box-main h3 {
-    font-size: 14px;
-  }
-
-  .top-sights-section .top-sights-list .top-sight-box .content-box-main p {
-    font-size: 12px;
+  .description {
+    font-size: 0.9rem;
   }
 }
 
-/* For Tablet (768px to 991px) */
-@media (min-width: 768px) and (max-width: 991px) {
-  .top-sights-section {
-    padding: 50px 15px;
-  }
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
 
-  .top-sights-section .top-sight-header h2 {
-    font-size: 28px;
-  }
-
-  .top-sights-section .top-sight-header p {
-    font-size: 15px;
-  }
-
-  .top-sights-section .top-sights-list .top-sight-box .col-auto .ratio {
-    width: 180px;
-  }
-
-  .top-sights-section .top-sights-list .top-sight-box .content-box-main {
-    padding: 20px;
-  }
-
-  .top-sights-section .top-sights-list .top-sight-box .content-box-main h3 {
-    font-size: 16px;
-  }
-
-  .top-sights-section .top-sights-list .top-sight-box .content-box-main p {
-    font-size: 14px;
-  }
+.description {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
 }
 
 .destinations-timing {
@@ -1355,6 +1316,7 @@ ul {
 }
 .footer-section .rights-text h5 {
   font-size: 16px;
+  text-align: center;
 }
 
 .places-image {
